@@ -22,4 +22,4 @@ class Main extends PluginBase {
         $this->getServer()->getPluginManager()->loadPlugins($this->getServer()->getPluginPath(), [AllPharPluginLoader::class, AllScriptPluginLoader::class, AllFolderPluginLoader::class]);
         $this->getServer()->enablePlugins(PluginLoadOrder::STARTUP);
     }
-}1
+}
