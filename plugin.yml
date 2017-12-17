@@ -1,7 +1,7 @@
-name: AllAPILoader
+name: ALLAPILOADER
 main: TheNewHEROBRINE\AllAPILoader\Main
 version: 2.0-RP
-api: [3.0.1, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
+api: [3.0.1, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 4.0.0-ALPHA1]
 author: TheNewHEROBRINE
 description: Makes the server load every plugin regardless of the API version
 load: STARTUP
