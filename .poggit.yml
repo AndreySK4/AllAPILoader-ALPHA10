@@ -1,7 +1,7 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/SirDoz/AllAPILoader-ALPHA9
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/SirDoz/AllAPILoader-ALPHA10
 branches:
 - master
 projects:
-  AllAPILoader-ALPHA9:
+  AllAPILoader-ALPHA10:
     path: ""
 ...
