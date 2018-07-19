@@ -8,8 +8,12 @@ use pocketmine\plugin\PluginLoadOrder;
 use TheNewHEROBRINE\AllAPILoader\Loaders\AllFolderPluginLoader;
 use TheNewHEROBRINE\AllAPILoader\Loaders\AllPharPluginLoader;
 use TheNewHEROBRINE\AllAPILoader\Loaders\AllScriptPluginLoader;
-class Main extends PluginLoader {
+class Main extends PluginBase {
 
+	public function registerInterface(PluginLoader $loader) : void{
+		$this->fileAssociations[get_class($loader)] = $loader;
+	}
+    
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerInterface(AllPharPluginLoader::class);
 
