@@ -9,7 +9,7 @@ use TheNewHEROBRINE\AllAPILoader\Loaders\AllFolderPluginLoader;
 use TheNewHEROBRINE\AllAPILoader\Loaders\AllPharPluginLoader;
 use TheNewHEROBRINE\AllAPILoader\Loaders\AllScriptPluginLoader;
 
-class Main extends PluginBase {
+class Main implements PluginLoader {
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerInterface(AllPharPluginLoader::class);
